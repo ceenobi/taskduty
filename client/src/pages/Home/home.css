@@ -1,0 +1,46 @@
+#homepage {
+    width: 80%;
+    height: 75vh;
+    display: flex;
+    margin: 0 auto;
+}
+.leftDiv {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.leftDiv #firstH {color: #292929;}
+.leftDiv #secondH {color: #974FD0;}
+.leftDiv p {
+    color: #737171;
+    max-width: 75%;
+    line-height: 29.57px;
+    padding: 20px 0px;
+    font-size: large;
+}
+.taskBtn {
+    background-color: #974FD0;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.taskBtn:hover {
+    background-color: #5c3080;
+}
+.rightDiv {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightDiv img {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}

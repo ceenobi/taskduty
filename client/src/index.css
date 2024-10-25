@@ -1,0 +1,18 @@
+* {
+  text-decoration: none !important;
+}
+
+html {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.formBox {
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .formBox {
+    width: 400px;
+  }
+}

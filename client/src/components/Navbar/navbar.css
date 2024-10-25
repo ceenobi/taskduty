@@ -1,0 +1,54 @@
+.navComponent {
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo a h2 {
+  padding-left: 10px;
+  margin-top: 5px;
+  color: #4a235a;
+}
+
+.menu {
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menu nav {
+  height: 100%;
+}
+
+.menu nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: 500;
+}
