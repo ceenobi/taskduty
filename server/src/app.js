@@ -8,7 +8,12 @@ import taskRoutes from "./routes/task.js";
 
 dotenv.config();
 const app = express();
-app.use(cors());
+const corsOptions = {
+  origin: ["http://localhost:5173", "http://localhost:5174"],
+  optionsSuccessStatus: 200,
+  methods: ["GET", "POST", "PATCH", "DELETE", "PUT"],
+};
+app.use(cors(corsOptions));
 app.use(morgan("dev"));
 app.use(json({ limit: "25mb" }));
 
